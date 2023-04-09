@@ -21,8 +21,8 @@ li.innerText = 'new list item'
 const firstListItem = document.querySelector('.list-item')
 
 console.log(firstListItem.innerHTML)
-console.log(firstListItem.innerText)
 console.log(firstListItem.textContent)
+console.log(firstListItem.innerText)
 
 // Modifying Attributes & Classes
 
