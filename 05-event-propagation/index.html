@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>05-event-propagation</title>
+    <style>
+      .button {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div2">
+      2
+      <div class="div1">
+        1
+        <br />
+        <!-- <button>Click</button> -->
+        <a href="" class="button">Click</a>
+        <!-- Anchor tags are inline elements -->
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
