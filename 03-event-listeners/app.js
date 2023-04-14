@@ -10,7 +10,9 @@ buttonFour.addEventListener('click', () => {
 
 // Example of Mouseover Event
 const exampleFive = document.querySelector('.heading-5')
+
 const buttonFive = document.querySelector('.btn-5')
-exampleFive.addEventListener('mouseover', () => {
+
+buttonFive.addEventListener('click', () => {
     exampleFive.style.backgroundColor = 'blue'
 })
