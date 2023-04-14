@@ -23,7 +23,7 @@ document.querySelector('.button').addEventListener('click', (event) => {
     console.log(event.target.innerText = "clicked!")
 }, false)
 
-// The 3rd parameter controls which phase the event listeners are in, with false standing for event capturing and false event bubbling.
+// The 3rd parameter controls which phase the event listeners are in, with true standing for event capturing and false event bubbling.
 
 // Because we added events to every element down to our button, we can visibly see how the three phases of event propagation play out. This allows us to better understand how events are handled and how to use them effectively in our code.
 
